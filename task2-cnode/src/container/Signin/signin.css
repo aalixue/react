@@ -1,0 +1,48 @@
+.container{
+    height: 300px;
+    background: #ffff;
+    border-radius: 5px;
+}
+.top{
+    height: 50px;
+    background: #f6f6f6;
+    font-size: 14px;
+}
+
+.top a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.bottom{
+    font-size: 16px;
+}
+.user{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 166px;
+}
+.bottom input{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+.btn2{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    width: 155px;
+    height: 30px;
+    display: inline-block;
+    background-color: #5bc0de;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 260px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,124 @@
+ul,li{
+    list-style: none;
+}
+.top{
+    width: 900px;
+    height: 40px;
+    background: #f6f6f6;
+    border-radius: 4px 4px 0 0;
+}
+.top a{
+    text-decoration: none;
+    font-size:14px;
+    height: 25px;
+    width: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+    text-align: center;
+    color: #a2a797;
+}
+
+.top a:hover{
+    color: darkblue;
+}
+.top a:focus{
+    background: #80bd01;
+    color: #ffffff;
+
+}
+.cell{
+    position: relative;
+    padding: 7.5px 0 7.5px 10px;
+    background: #ffffff;
+    border-bottom: 1px solid #e1e1e1;
+}
+.cell:hover{
+    background: #f6f6f6;
+}
+.box{
+    position: absolute;
+    top: 12.5px;
+    left: 55px;
+}
+.cell .reply{
+    color: #9e78c0;
+    font-size: 14px;
+}
+
+.cell .visit{
+    font-size: 10px;
+    color: #b4b4b4;
+}
+
+.share{
+    width: 30px;
+    height: 15px;
+    background-color:#e5e5e5;
+    color:#999;
+    border-radius: 3px; 
+    font-size: 12px;
+    position: absolute;
+    left: 125px;
+    top: 17.5px;
+    text-align: center;
+}
+
+.title{
+    color: black;
+    position: absolute;
+    left: 165px;
+    top: 15px;
+    max-width: 70%;
+    text-overflow : ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+
+.title:hover{
+    border-bottom: 1px solid #000000;
+}
+
+.box1{
+    float: right;
+    padding: 8px 70px 8px 8px;
+}
+.days{
+    color: #778087;
+    font-size: 11px;
+    display:inline-block;
+    position: absolute;
+    margin-left: 30px;
+    top:20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    width: 40px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    text-decoration: none;
+    text-align: center;
+    color: #778087;
+}   
+.all{
+    width: 900px;
+    background: #ffffff;
+}
+
+ul{
+    margin-left: 10px;
+}
+ul a:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+ul a:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+ul a:focus{
+    color: #80bd01;
+}
